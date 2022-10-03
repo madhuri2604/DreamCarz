@@ -2,38 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signoutButton{
+  color:black;
+  border: none;
+  border-radius: 8px;
+  border-style: double;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  display:inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.userImage{
+  border-radius: 50%;
+  height: 30px;
+  
+}
+.imgDiv{
+  margin-top:0px;
 }
 
-.App-header {
-  min-height: 100vh;
+.Login-component{
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  width: fit-content;
+  gap: 1rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-right: 1.5rem;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.interiorImage{
+  width:70%;
+  height: 40%;
+  top : 10px;
+  bottom:10px;
 }
